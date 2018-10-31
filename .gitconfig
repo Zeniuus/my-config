@@ -1,0 +1,10 @@
+[user]
+        email = jsh56son@gmail.com
+        name = Suhwan Jee
+[alias]
+        glg = log --all --graph --decorate
+        ca = commit --amend
+        ciff = diff --cached
+        rc = rebase --continue
+        sp = stash pop
+        ri = "!f() { git rebase -i \"head~$1\"; }; f"
